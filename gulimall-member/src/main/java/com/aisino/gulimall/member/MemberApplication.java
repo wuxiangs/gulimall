@@ -6,4 +6,7 @@ package com.aisino.gulimall.member;
  * @email 1325668250@qq.com
  */
 public class MemberApplication {
+  public static void main(String[] args) {
+        System.out.println("呵呵呵");
+    }
 }
