@@ -13,6 +13,7 @@
         <module>gulimall-coupon</module>
         <module>gulimall-products</module>
         <module>renren-fast</module>
+        <module>renren-generator</module>
     </modules>
     <name>gulimall</name>
     <description>聚合服务</description>
