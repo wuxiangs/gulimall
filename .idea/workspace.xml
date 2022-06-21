@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bea2c1f4-b87e-4256-b49c-86566e6e9291" name="Changes" comment="pom更新">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bea2c1f4-b87e-4256-b49c-86566e6e9291" name="Changes" comment="product模块更新">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/aisino/gulimall/coupon/CouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/aisino/gulimall/coupon/CouponApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/aisino/gulimall/member/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/aisino/gulimall/member/MemberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/aisino/gulimall/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/aisino/gulimall/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/aisino/gulimall/ware/WareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/aisino/gulimall/ware/WareApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Controller.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/test/java/io/renren/RenrenApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,27 +72,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-common/src/main/java/com/aisino/gulimall/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-ware/src/main/java/com/aisino/gulimall/ware" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.13351136" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gulimall-common/src/main/java/com/aisino/gulimall/common" />
-      <recent name="$PROJECT_DIR$/gulimall-common/src/main/java/com/aisino/gulimall" />
-      <recent name="$PROJECT_DIR$/gulimall-common/src/main/java/com/aisino/gulimall/common/util" />
-      <recent name="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product" />
-      <recent name="$PROJECT_DIR$/gulimall-products/src/main/resources" />
+      <recent name="$PROJECT_DIR$/gulimall-ware/src/main/java/com/aisino/gulimall/ware" />
+      <recent name="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/gulimall-ware/src/main/resources" />
+      <recent name="$PROJECT_DIR$/gulimall-order/src/main/java/com/aisino/gulimall/order" />
+      <recent name="$PROJECT_DIR$/gulimall-order/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aisino.gulimall.common.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GulimallProductApplication.contextLoads">
+  <component name="RunManager" selected="Spring Boot.RenrenApplication (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -163,7 +157,7 @@
       <workItem from="1655702091151" duration="468000" />
       <workItem from="1655702570621" duration="7844000" />
       <workItem from="1655731542180" duration="9552000" />
-      <workItem from="1655776945882" duration="8089000" />
+      <workItem from="1655776945882" duration="14754000" />
     </task>
     <task id="LOCAL-00001" summary="主方法提交">
       <created>1655658971626</created>
@@ -228,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655772690824</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="product模块更新">
+      <created>1655792978216</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655792978217</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +255,8 @@
     <MESSAGE value="测试提交" />
     <MESSAGE value="添加模块" />
     <MESSAGE value="pom更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom更新" />
+    <MESSAGE value="product模块更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="product模块更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,6 +270,21 @@
           <url>file://$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/SkuSaleAttrValueController.java</url>
           <line>5</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-coupon/src/main/java/com/aisino/gulimall/coupon/controller/HomeSubjectSpuController.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-member/src/main/java/com/aisino/gulimall/member/controller/MemberLevelController.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gulimall-member/src/main/java/com/aisino/gulimall/member/controller/MemberLoginLogController.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
