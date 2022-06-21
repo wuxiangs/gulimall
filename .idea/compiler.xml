@@ -23,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gulimall-products" options="" />
       <module name="renren-fast" options="-parameters" />
       <module name="renren-generator" options="-parameters" />
     </option>
