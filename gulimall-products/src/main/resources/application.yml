@@ -1,12 +1,22 @@
+#端口号
+server:
+  port: 7004
+
 #mysql数据源配置
 spring:
+  application:
+    name: gulimall-products
   datasource:
     username: root
     password: 123456
     url: jdbc:mysql://localhost:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-
+#nacos配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848,127.0.0.1:8849,127.0.0.1:8850
 
 #mybatis-plus配置
 mybatis-plus:
