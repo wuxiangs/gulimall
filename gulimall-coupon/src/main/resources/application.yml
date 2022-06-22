@@ -1,25 +1,24 @@
-#端口号
-server:
-  port: 7001
-#数据库配置
-spring:
-  application:
-    name: gulimall-coupon
-  datasource:
-    username: root
-    password: 123456
-    url: jdbc:mysql://localhost:3306/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
-    driver-class-name: com.mysql.cj.jdbc.Driver
-#配置注册中心
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848,127.0.0.1:8849,127.0.0.1:8850
-#mybatis-plus配置
-mybatis-plus:
-  global-config:
-    db-config:
-      id-type: auto
-  mapper-locations: classpath:/mapper/**/*.xml
-
+##端口号
+#server:
+#  port: 7001
+##数据库配置
+#spring:
+#  application:
+#    name: gulimall-coupon
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://localhost:3306/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+##配置注册中心
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848,127.0.0.1:8849,127.0.0.1:8850
+##mybatis-plus配置
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      id-type: auto
+#  mapper-locations: classpath:/mapper/**/*.xml
 
