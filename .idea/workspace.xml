@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bea2c1f4-b87e-4256-b49c-86566e6e9291" name="Changes" comment="配置文件更新">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="bea2c1f4-b87e-4256-b49c-86566e6e9291" name="Changes" comment="添加功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/entity/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +70,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -99,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GateWayApplication">
+  <component name="RunManager" selected="Spring Boot.RenrenApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -150,6 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aisino.gulimall.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gulimall-products" />
       <extension name="coverage">
@@ -186,10 +201,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GateWayApplication" />
-        <item itemvalue="Spring Boot.CouponApplication" />
-        <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="Spring Boot.WareApplication" />
         <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.WareApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.CouponApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +228,7 @@
       <workItem from="1655776945882" duration="15748000" />
       <workItem from="1655800601331" duration="10195000" />
       <workItem from="1655824153648" duration="1446000" />
-      <workItem from="1655859841306" duration="25041000" />
+      <workItem from="1655859841306" duration="46993000" />
     </task>
     <task id="LOCAL-00001" summary="主方法提交">
       <created>1655658971626</created>
@@ -313,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655903566969</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加功能">
+      <created>1655947695475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655947695475</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +364,8 @@
     <MESSAGE value="模块更新" />
     <MESSAGE value="pom更新" />
     <MESSAGE value="配置文件更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件更新" />
+    <MESSAGE value="添加功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

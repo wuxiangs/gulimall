@@ -27,10 +27,10 @@
             <artifactId>gulimall-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <exclusions>
-                <exclusion>
-                    <groupId>com.alibaba.cloud</groupId>
-                    <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
-                </exclusion>
+<!--                <exclusion>-->
+<!--                    <groupId>com.alibaba.cloud</groupId>-->
+<!--                    <artifactId>spring-cloud-starter-alibaba-seata</artifactId>-->
+<!--                </exclusion>-->
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-web</artifactId>
