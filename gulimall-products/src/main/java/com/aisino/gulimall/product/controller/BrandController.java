@@ -37,7 +37,6 @@ public class BrandController {
     //@RequiresPermissions("product:brand:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = brandService.queryPage(params);
-
         return R.ok().put("page", page);
     }
 
@@ -49,7 +48,6 @@ public class BrandController {
     //@RequiresPermissions("product:brand:info")
     public R info(@PathVariable("brandId") Long brandId){
 		BrandEntity brand = brandService.getById(brandId);
-
         return R.ok().put("brand", brand);
     }
 
@@ -60,7 +58,6 @@ public class BrandController {
     //@RequiresPermissions("product:brand:save")
     public R save(@RequestBody BrandEntity brand){
 		brandService.save(brand);
-
         return R.ok();
     }
 
@@ -71,7 +68,6 @@ public class BrandController {
    // @RequiresPermissions("product:brand:update")
     public R update(@RequestBody BrandEntity brand){
 		brandService.updateById(brand);
-
         return R.ok();
     }
 
@@ -82,7 +78,6 @@ public class BrandController {
     //@RequiresPermissions("product:brand:delete")
     public R delete(@RequestBody Long[] brandIds){
 		brandService.removeByIds(Arrays.asList(brandIds));
-
         return R.ok();
     }
 

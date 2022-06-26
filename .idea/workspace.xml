@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bea2c1f4-b87e-4256-b49c-86566e6e9291" name="Changes" comment="添加功能">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/entity/CategoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/test/java/com/aisino/gulimall/product/GulimallProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/test/java/com/aisino/gulimall/product/GulimallProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,26 +102,38 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RenrenApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ThirdPartApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gulimall-coupon" />
+    <configuration name="GulimallProductApplication.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-products" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aisino.gulimall.coupon.*" />
+          <option name="PATTERN" value="com.aisino.gulimall.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.aisino.gulimall.product" />
+      <option name="MAIN_CLASS_NAME" value="com.aisino.gulimall.product.GulimallProductApplication" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-coupon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aisino.gulimall.coupon.CouponApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,6 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThirdPartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-third-part" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aisino.gulimall.thirdpart.ThirdPartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="gulimall-ware" />
       <extension name="coverage">
@@ -201,10 +215,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GateWayApplication" />
+        <item itemvalue="JUnit.GulimallProductApplication.testUpload" />
         <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.WareApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="Spring Boot.CouponApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +242,8 @@
       <workItem from="1655776945882" duration="15748000" />
       <workItem from="1655800601331" duration="10195000" />
       <workItem from="1655824153648" duration="1446000" />
-      <workItem from="1655859841306" duration="46993000" />
+      <workItem from="1655859841306" duration="48971000" />
+      <workItem from="1656234833816" duration="7173000" />
     </task>
     <task id="LOCAL-00001" summary="主方法提交">
       <created>1655658971626</created>
@@ -335,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655947695475</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加功能">
+      <created>1656232228177</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656232228177</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

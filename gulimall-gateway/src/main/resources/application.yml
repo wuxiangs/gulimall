@@ -18,14 +18,23 @@ spring:
           predicates:
             - Query=url,qq
 
-        - id: admin_route
-          uri: lb://renren-fast
-          predicates:
-            - Path=/api/renren/**
-
+        #商品系统
         - id: product_route
           uri: lb://gulimall-products
           predicates:
             - Path=/api/product/**
           filters:
             - RewritePath=/api/?(?<segment>.*), /$\{segment}
+        #第三方
+        - id: third_part_route
+          uri: lb://gulimall-third-part
+          predicates:
+            - Path=/api/thirdpart/**
+          filters:
+            - RewritePath=/api/thirdpart/?(?<segment>.*), /$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/renren/**
+
