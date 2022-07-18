@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bea2c1f4-b87e-4256-b49c-86566e6e9291" name="Changes" comment="添加功能">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/AttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/AttrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/AttrGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/AttrGroupController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-products/src/test/java/com/aisino/gulimall/product/GulimallProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/test/java/com/aisino/gulimall/product/GulimallProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/CategoryBrandRelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/CategoryBrandRelationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/dao/CategoryBrandRelationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/dao/CategoryBrandRelationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/entity/AttrGroupEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/entity/AttrGroupEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/entity/BrandEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/entity/BrandEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/AttrGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/AttrGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/AttrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/AttrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/CategoryBrandRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/CategoryBrandRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/AttrGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/AttrGroupServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/CategoryBrandRelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/CategoryBrandRelationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/java/com/aisino/gulimall/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-products/src/main/resources/mapper/product/CategoryBrandRelationDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-products/src/main/resources/mapper/product/CategoryBrandRelationDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -357,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656232228177</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="添加功能">
+      <created>1656243570673</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656243570673</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

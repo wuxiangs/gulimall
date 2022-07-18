@@ -1,6 +1,7 @@
 package com.aisino.gulimall.product.controller;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Map;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
@@ -8,13 +9,20 @@ import com.aisino.gulimall.common.util.PageUtils;
 import com.aisino.gulimall.common.util.R;
 import com.aisino.gulimall.product.entity.BrandEntity;
 import com.aisino.gulimall.product.service.BrandService;
+import com.aisino.gulimall.validator.group.AddGroup;
+import com.aisino.gulimall.validator.group.UpdateGroup;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.bind.BindResult;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
+import javax.validation.Valid;
 
 
 /**
@@ -27,7 +35,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("product/brand")
 public class BrandController {
-    @Autowired
+
+    @Resource
     private BrandService brandService;
 
     /**
@@ -56,9 +65,10 @@ public class BrandController {
      */
     @RequestMapping("/save")
     //@RequiresPermissions("product:brand:save")
-    public R save(@RequestBody BrandEntity brand){
-		brandService.save(brand);
-        return R.ok();
+    public R save(@Validated(value = AddGroup.class) @RequestBody BrandEntity brand){
+            brandService.save(brand);
+            return R.ok();
+//        }
     }
 
     /**
@@ -66,8 +76,8 @@ public class BrandController {
      */
     @RequestMapping("/update")
    // @RequiresPermissions("product:brand:update")
-    public R update(@RequestBody BrandEntity brand){
-		brandService.updateById(brand);
+    public R update(@Validated(value = {UpdateGroup.class}) @RequestBody BrandEntity brand){
+		brandService.updateDetail(brand);
         return R.ok();
     }
 

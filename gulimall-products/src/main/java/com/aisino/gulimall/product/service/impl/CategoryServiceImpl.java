@@ -4,19 +4,24 @@ import com.aisino.gulimall.common.util.PageUtils;
 import com.aisino.gulimall.common.util.Query;
 import com.aisino.gulimall.product.dao.CategoryDao;
 import com.aisino.gulimall.product.entity.CategoryEntity;
+import com.aisino.gulimall.product.service.CategoryBrandRelationService;
 import com.aisino.gulimall.product.service.CategoryService;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
+import javax.annotation.Resource;
+
 @Service("categoryService")
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity> implements CategoryService {
+
+    @Resource
+    private CategoryBrandRelationService categoryBrandRelationService;
 
 
     @Override
@@ -82,4 +87,36 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         baseMapper.deleteBatchIds(asList);
     }
 
+    /**
+     * 返回catelogId的完整路径
+     * @param catelogId
+     * @return
+     */
+    @Override
+    public Long[] findCatelogPath(Long catelogId) {
+        List<Long> paths=new ArrayList<>();
+        List<Long> parentPath = findParentPath(catelogId, paths);
+        Collections.reverse(parentPath);
+        return (Long[]) parentPath.toArray(new Long[parentPath.size()]);
+    }
+
+    /**
+     * 级联更新所有关联的数据
+     * @param category
+     */
+    @Override
+    public void updateCascade(CategoryEntity category) {
+        this.updateById(category);
+        categoryBrandRelationService.updateCategory(category.getCatId(),category.getName());
+    }
+
+    private List<Long> findParentPath(Long catelogId,List<Long> paths){
+        //收集当前节点id
+        paths.add(catelogId);
+        CategoryEntity byId = this.getById(catelogId);
+        if (byId.getParentCid()!=0){
+            findParentPath(byId.getParentCid(), paths);
+        }
+        return paths;
+    }
 }
